@@ -1,0 +1,43 @@
+footer{
+    background-color: #0f0f0f;
+    height: 80px;
+}
+
+header{
+    background-color: white;
+}
+
+main{
+    min-height: 80vh;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+.big-icons{
+    font-size: 1.5em;
+}
+
+.row{
+    --bs-gutter-x:0;
+}
+
+@media (min-width: 1366px) { 
+    header {
+        font-size: 1.6em;
+    }
+
+    .font *{
+        font-size: larger;
+    }
+
+    .carousel-inner img{
+        height: 300px;
+    }
+
+    iframe{
+        height: 300px;
+    }
+}
